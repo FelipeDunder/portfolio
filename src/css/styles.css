@@ -1,0 +1,107 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&family=Quicksand:wght@300..700&display=swap');
+
+
+
+:root{
+    --principal: #33333b;
+    --textColor: #F4DFC8;
+    --secondary: #2d2d33;
+    --font1: 'Jersey 15', cursive;
+    --font2: 'Quicksand', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body{
+    background-color: var(--principal);
+    font-family: 'Quicksand', serif;   
+}
+
+
+
+header{   
+    background-color: var(--secondary);
+    color: var(--textColor);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+}
+
+.text_header{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.nav_links{
+    display: flex;
+    gap: 2rem;
+    align-content: flex-end;
+    font-size: large; 
+    padding-right: 2rem;     
+}
+
+.module1{
+    margin-top: 5rem;   
+    color: var(--textColor);
+    display: flex;
+    flex-direction: column;
+      
+}
+
+.title{
+    margin-left: 30%;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.typing{
+    margin-left: 35%;
+    font-family: var(--font1);
+    font-size: 6rem;
+    align-items: center;
+    width: 6em;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid var(--textColor);
+    animation: typing 1s steps(12, end), cursor .2s steps(12, end) infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+
+.about{
+    margin-top: 7rem;
+    color: var(--textColor);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text{
+    font-size: 1.5rem;
+    text-wrap: balance;
+    text-align: center;
+    margin-top: 2rem;
+    padding: 0 16rem;
+}
+
+.link:link{
+    color: #57f542;;
+    text-decoration: none
+    
+}
+
+
+
