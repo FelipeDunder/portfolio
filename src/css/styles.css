@@ -20,7 +20,7 @@
 
 body{
     background-color: var(--principal);
-    font-family: 'Quicksand', serif;   
+    font-family: 'Quicksand', serif; 
 }
 
 
@@ -42,7 +42,6 @@ header{
 .nav_links{
     display: flex;
     gap: 2rem;
-    align-content: flex-end;
     font-size: large; 
     padding-right: 2rem;     
 }
@@ -55,7 +54,7 @@ header{
       
 }
 
-.title{
+.welcome{
     margin-left: 30%;
     font-size: 1rem;
     font-weight: 600;
@@ -81,7 +80,7 @@ header{
     50% { border-color: transparent }
 }
 
-.about{
+.content{
     margin-top: 7rem;
     color: var(--textColor);
     display: flex;
@@ -91,17 +90,49 @@ header{
 
 .text{
     font-size: 1.5rem;
-    text-wrap: balance;
+    text-wrap-style: balance; 
     text-align: center;
     margin-top: 2rem;
     padding: 0 16rem;
 }
 
+
 .link:link{
     color: #57f542;;
-    text-decoration: none
-    
+    text-decoration: none;    
 }
 
 
+.title2{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: var(--textColor) ;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
 
+.projects{
+    margin: 3rem 10rem;
+    color: var(--textColor);
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.proje{
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+}
+
+.sites{
+    width: 2rem;
+
+}
+
+.project_links{
+    display: flex;
+    gap: 1rem;
+}
